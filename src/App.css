@@ -1,0 +1,66 @@
+.App-logo {
+  height: 60px;
+  width: 60px;
+}
+
+.navbar{
+  display:flex;
+  align-items: center;
+  background: #21222A ;
+  padding: 5px 10px;
+}
+.navbar > h2 {
+  margin-right: auto;
+  color: #61dafb;
+}
+.navbar > h3{
+  margin-left: auto;
+  padding-right:15px ;
+  color: white;
+  font-weight: lighter;
+  font-size: 16px;
+}
+
+body , footer{
+  background-color: #282d35;
+  color: white;
+}
+
+
+
+.main{
+  display: block;
+  padding: 0%;
+  margin: 20px ;
+  margin-right: 0;
+  background-image:url(./graylogo.png) ;
+  background-repeat: no-repeat;
+  background-position:110% 75%;
+  
+}
+
+.main-heading{
+  font-size: 36px;
+}
+
+.fact-list{
+  max-width: 600px;
+}
+
+.list-item{
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.list-item::marker{
+  font-size: 1.5rem;
+  color: #61dafb;
+}
+
+.foot{
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  position: fixed;
+  padding: 20px;
+}
