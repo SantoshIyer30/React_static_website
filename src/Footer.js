@@ -3,9 +3,9 @@ import { ReactDOM } from "react";
 
 
 
-function Footer(){
+function Footer(props){
     return (
-        <footer className = "foot">
+        <footer className = {props.darkMode ? "dark" : ""} >
                 <small>© 2021 Iyer development. All rights reserved.</small>
             </footer>
     )

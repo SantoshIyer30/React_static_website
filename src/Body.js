@@ -1,11 +1,8 @@
 import React from "react";
-import { ReactDOM } from "react";
 
-
-
-function Body(){
+function Body(props){
     return (
-      <div className='main'>
+      <main className={props.darkMode ? "dark" : ""}>
         <h1  className="main-heading"> Fun Facts About React </h1>
         <ul className="fact-list">
           <li className="list-item">Was first released in 2013</li>
@@ -14,7 +11,7 @@ function Body(){
           <li className="list-item">Is maintained by Facebook</li>
           <li className="list-item">Powers thousands of enterprise apps,including mobile apps</li>
         </ul>
-      </div>
+      </main>
     )
   }
 
